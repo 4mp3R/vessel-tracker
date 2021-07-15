@@ -1,0 +1,10 @@
+import Config
+
+config :vessel_tracker,
+  telegram_bot_token: "",
+  telegram_group_chat_id: "",
+  finder_page: "",
+  update_interval_ms: 3_600_000
+
+config :logger,
+  level: :info
